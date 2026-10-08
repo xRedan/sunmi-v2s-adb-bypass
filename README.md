@@ -2,6 +2,8 @@
 
 [Step-by-step guide](docs/guide-en.md) · [Recovery](docs/guide-en.md#8-restore-the-original-boot)
 
+To use the thermal printer, check out this repository: [sunmi-mobile-printer](https://github.com/xRedan/sunmi-mobile-printer)
+
 Bypass SUNMI's developer-account and device-linking requirements for USB debugging on supported SUNMI V2s devices. This toolkit enables authenticated ADB access and APK installation without registering a SUNMI developer account or linking the terminal to that account.
 
 The procedure requires an available OEM bootloader unlock option. It backs up the original boot partitions, uses native Fastboot unlocking, prepares a device-specific boot image with Magisk, and authorizes the development PC's public ADB key.
