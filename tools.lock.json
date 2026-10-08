@@ -1,0 +1,48 @@
+{
+  "bundle": {
+    "filename": "sunmi-v2s-tools-windows.zip",
+    "sha256": "a92aaa537de2d3e517a905e49bc13483e68547c52b1738625ae57b40b3f9cf05",
+    "size": 99965529
+  },
+  "components": {
+    "platform_tools": {
+      "version": "37.0.1-15733141",
+      "origin": "Google Android SDK platform-tools distribution",
+      "reference": "https://developer.android.com/tools/releases/platform-tools"
+    },
+    "google_usb_driver": {
+      "version": "r13",
+      "url": "https://dl.google.com/android/repository/usb_driver_r13-windows.zip",
+      "download_archive_sha256": "360b01d3dfb6c41621a3a64ae570dfac2c9a40cca1b5a1f136ae90d02f5e9e0b"
+    },
+    "usbdk": {
+      "version": "v1.00-22",
+      "url": "https://github.com/daynix/UsbDk/releases/download/v1.00-22/UsbDk_1.0.22_x64.msi",
+      "sha256": "91f6f695e1e13c656024e6d3b55620bf08d8835ef05ee0496935ba6bb62466a5"
+    },
+    "mtkclient": {
+      "commit": "cd25cf9c1ff6d36e82697ac2c798e69e9cfb78c3",
+      "source": "https://github.com/bkerler/mtkclient/tree/cd25cf9c1ff6d36e82697ac2c798e69e9cfb78c3",
+      "source_included": true,
+      "purpose": "Read-only GPT and seven-partition backup through the wrapper"
+    },
+    "magisk": {
+      "version": "v30.7",
+      "url": "https://github.com/topjohnwu/Magisk/releases/download/v30.7/Magisk-v30.7.apk",
+      "sha256": "e0d32d2123532860f97123d927b1bb86c4e08e6fd8a48bfc6b5bee0afae9ebd5"
+    },
+    "magiskboot_windows": {
+      "origin": "https://github.com/PinNaCode/magiskboot_build",
+      "unofficial_port": true,
+      "binary_sha256": "bb72543569ea6ec2eb4cc55b999be96c5f624a15c8e40afbf1c6bc8d67e4063e",
+      "archive_name": "magiskboot-e159716-release-windows-mingw-w64-ucrt-x86_64-standalone.zip",
+      "archive_sha256": "c46497e35823cf1336a0b3b3b224fd7e08b084476544ba8a8c2515b9de664808",
+      "note": "Mutable last-ci download is not used at runtime; the exact verified binary is bundled."
+    },
+    "python": {
+      "version": "3.12.14 x64",
+      "origin": "Portable CPython runtime with standard library and CLI dependencies",
+      "reference": "https://www.python.org/"
+    }
+  }
+}
