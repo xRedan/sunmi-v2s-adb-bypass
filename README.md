@@ -50,9 +50,9 @@ If ADB already works, configure the device and use `08-Verify-ADB.cmd` or `10-In
 ## Repository layout
 
 ```text
-scripts/          English Python and PowerShell sources
+scripts/          Python and PowerShell sources
 tests/            Offline tests using synthetic device identifiers
-docs/             English guide and PDF copy
+docs/             Guide and PDF copy
 tools.lock.json   Public component versions and bundle hash
 .tools/           Installed tools; ignored by Git
 .local/           Configuration, backups, builds and logs; ignored by Git
